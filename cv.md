@@ -1,4 +1,4 @@
-# [rsschool-cv](https://Exodusbf.github.io/rsschool-cv/)
+# [rsschool-cv](https://Exodusbf.github.io/rsschool-cv/cv)
 ---
 # **Dmitrij Lagun**
 ---
