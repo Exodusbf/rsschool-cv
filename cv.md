@@ -31,8 +31,8 @@
         let shoppingCart = fruits;
         shoppingCart.push("Банан");
 
-        // что в fruits?
-        alert(fruits.length); // Длина массивa увеличилась на единицу в копии и в оригинале
+        // Длина массивa увеличилась на единицу в копии и в оригинале
+        alert(fruits.length); 
     </script>
 ---
 ## **Experience**
