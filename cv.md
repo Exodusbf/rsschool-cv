@@ -9,7 +9,7 @@
 * **GitHub:** [exodusbf](https://github.com/Exodusbf).
 ---
 **About Me:** 
-* My goals and priorities are - gainig expirience both theoretical and practical, the opportunity to challange myself and get the opportunity to realize myself as a junior frontend developer.
+My goals and priorities are - gainig expirience both theoretical and practical, the opportunity to challange myself and get the opportunity to realize myself as a junior frontend developer.
 ---
 **Skills:**
 * Understanding Virtualization technology.
