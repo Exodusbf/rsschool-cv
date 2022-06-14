@@ -1,0 +1,158 @@
+body {
+    background: grey;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.page_header {
+    display: grid;
+}
+
+.header_menu {
+flex: 70%;
+}
+
+.page_header_container {
+    display: inline-flex;
+
+    margin-top: 5%;
+    background: black;
+    color:white;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.menu_list_item {
+    margin-right: 25px;
+}
+
+.menu_anchor_link {
+    color: darkorange;
+}
+
+.main_content_container {
+    display: flex;
+}
+
+aside {
+    background: #514e4ec7;
+}
+
+.avatar{
+    width: 250px;
+    background: black;
+}
+
+.test {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1_heading{
+    background: #312f2b;
+    color: white;
+    display: flex;
+    margin: 0;
+    height: 308.317px;  
+}
+
+h1 {
+    flex: 30%;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+
+.skills_heading {
+    background-color: black;
+    color: white;
+    padding-left: 10%;
+}
+
+.skills_icon {
+    width: 50px;
+    height: 50px;
+}
+
+.languages_heading {
+    background-color: black;
+    color: white;
+    padding-left: 10%;
+}
+
+.contacts_heading {
+    background-color: black;
+    color: white;
+    padding-left: 10%;
+}
+
+.contacts_icon {
+    width: 50px;
+    height: 50px;
+}
+
+.about-me_container {
+    padding-left: 15px;
+}
+
+.education_heading {
+    padding-left: 15px;
+}
+
+.education_list {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.university_img {
+    width: 60px;
+    height: 60px;
+}
+
+.courses_heading {
+    padding-left: 15px;
+}
+
+.courses_list {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.courses_icon {
+    width: 60px;
+    height: 60px;
+}
+
+.code-example_heading {
+    padding-left: 15px;
+}
+
+.pre_code {
+    background: #ffffff7d;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+}
+.footer_links {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.created_year {
+    color: white;
+}
+
+.school_icon {
+    height: 50px;
+    background: darkorange;
+}
