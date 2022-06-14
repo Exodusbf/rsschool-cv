@@ -33,6 +33,7 @@ flex: 70%;
 }
 
 .menu_anchor_link {
+    font-weight: bold;
     color: darkorange;
 }
 
@@ -49,7 +50,7 @@ aside {
     background: black;
 }
 
-.test {
+.wide_content_container {
     background-color: orange;
     display: flex;
     flex-direction: column;
@@ -57,7 +58,7 @@ aside {
 
 .h1_heading{
     background: #312f2b;
-    color: white;
+    color: darkorange;
     display: flex;
     margin: 0;
     height: 308.317px;  
@@ -71,7 +72,7 @@ h1 {
 
 .skills_heading {
     background-color: black;
-    color: white;
+    color: darkorange;
     padding-left: 10%;
 }
 
@@ -82,13 +83,18 @@ h1 {
 
 .languages_heading {
     background-color: black;
-    color: white;
+    color: darkorange;
     padding-left: 10%;
+}
+
+.languages_list {
+    font-weight: bold;
+    color: black;
 }
 
 .contacts_heading {
     background-color: black;
-    color: white;
+    color: darkorange;
     padding-left: 10%;
 }
 
@@ -102,6 +108,7 @@ h1 {
 }
 
 .education_heading {
+    margin: 0 auto;
     padding-left: 15px;
 }
 
@@ -116,6 +123,7 @@ h1 {
 }
 
 .courses_heading {
+    margin: 0 auto;
     padding-left: 15px;
 }
 
@@ -130,6 +138,7 @@ h1 {
 }
 
 .code-example_heading {
+    margin: 0 auto;
     padding-left: 15px;
 }
 
@@ -149,7 +158,8 @@ footer {
 }
 
 .created_year {
-    color: white;
+    color: darkorange;
+    font-weight: bold;
 }
 
 .school_icon {
