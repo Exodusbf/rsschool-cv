@@ -165,14 +165,10 @@
                         <h2 class="code-example_heading" id="code-example_anchor">Code example:</h2>
                             <pre class="pre_code">
                                 <code class="code">
-                                    function squareDigits(num){
-                                        const numToStr = num.toString().split('');
-                                        let res = [];
-                                        for (let i = 0; i &lt numToStr.length; i++){
-                                            res.push(numToStr[i]**2);
-                                            }
-                                        return parseInt(res.join(""));
-                                        }
+                                    function spread(func, args) {
+                                        let new1  = func(...args);
+                                        return new1;
+                                      }
                                 </code>
                             </pre>
                     </div>
