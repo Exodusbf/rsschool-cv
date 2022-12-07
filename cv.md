@@ -32,16 +32,14 @@
 ---
 
 ## **Code Example:**
-        let fruits = ["Яблоки", "Груша", "Апельсин"];
-
-        // добавляем новое значение в "копию"
-        let shoppingCart = fruits;
-        shoppingCart.push("Банан");
-
-        // Длина массивa увеличилась на единицу в копии и в оригинале
-        alert(fruits.length); 
-
----
+        function findShort(s){
+        const a = s.split(' ');
+        let b = [];
+        for (let i = 0; i < a.length; i++) {
+        b.push(a[i].length);
+        } 
+        return Math.min.apply(null,b);
+        }
 ## **Experience:**
 
 ---
