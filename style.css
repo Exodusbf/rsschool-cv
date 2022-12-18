@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth; 
+  }
+
 body {
     background: grey;
     font-family: 'Shadows Into Light', cursive;
@@ -16,7 +20,6 @@ flex: 70%;
 
 .page_header_container {
     display: inline-flex;
-
     margin-top: 5%;
     background: black;
     color:white;
@@ -51,6 +54,7 @@ aside {
 }
 
 .wide_content_container {
+    width: 82.6%;
     background-color: orange;
     display: flex;
     flex-direction: column;
@@ -110,6 +114,7 @@ h1 {
 .education_heading {
     margin: 0 auto;
     padding-left: 15px;
+
 }
 
 .education_list {
@@ -147,6 +152,14 @@ h1 {
     padding: 10px;
 }
 
+.project {
+    width: 100%;
+}
+
+.travel_img {
+    max-width: 100%;
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
@@ -165,4 +178,12 @@ footer {
 .school_icon {
     height: 50px;
     background: darkorange;
+}
+
+.menu_anchor_link:hover, .menu_anchor_link:focus, .menu_anchor_link:active {
+    background-color: rgba(255, 255, 255, 0.911);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.45s linear;
 }
